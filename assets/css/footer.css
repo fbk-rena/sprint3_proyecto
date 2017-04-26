@@ -27,6 +27,7 @@ footer{
 .divsVerticales{
     float: left;
     width: 20%;
+   list-style:none;
 }
 
 /*Parte horizontal final del footer*/

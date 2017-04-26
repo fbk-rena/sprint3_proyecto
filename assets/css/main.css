@@ -128,3 +128,12 @@ header>nav>ul>li>button {
     color: #ff00bf;
     text-decoration: none;
 }
+
+/* menu no show*/
+#seccionDatos {
+  display: none;    
+}
+
+#numeroChiquito {
+  display: none; 
+}
