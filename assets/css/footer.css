@@ -1,0 +1,29 @@
+footer{
+    clear: both;
+    background: #383838;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+#divHorizontal {
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+    width: 60%;
+    text-align: center
+}
+
+#divHorizontal img {
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    position: relative; 
+}
+
+#raya{
+    width: 100%;
+    text-align: center;    
+}
+
