@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body{
+    background-image: url(../img/homepage-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
 html, body {
     height: 100%;
 }
@@ -49,5 +56,65 @@ header>nav>ul>li>button {
     background-color: rgba(255, 255, 255, 0);
     color: white;
     font-family: 'Muli', sans-serif;
+}
+
+/* seccion1 */
+
+#seccion1{
+    margin-top: 105px;
+    position: absolute;
+}
+
+#formulario {
+    width: 70%;
+    height: 300px;
+    background-color: #fff;
+    float:right;
+    font-family: "arial";
+    color: #36218c;
+    padding-left: 20px;
+}
+
+.numTel{
+    width: 90%;
+}
+.numTel .inputs{
+    width: 90%;
+    background-color: none;
+    border: none;
+}
+
+.botones{
+    display: inline-block;
+}
+
+.botonDriver{
+    background-color: #ff00bf;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    font-size: 90%;
+}
+
+.botonSign{
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    color: #6e6f80;
+    text-decoration: underline;
+    font-size: 90%;
+}
+
+.infoAdicional{
+    color: #6e6f80;
+    font-size: 70%;
+}
+.infoAdicional .linkInfo{
+    color: #ff00bf;
+    text-decoration: none;
 }
 
