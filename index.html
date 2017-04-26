@@ -6,7 +6,9 @@
     <link rel="icon" href="assets/img/favicon-16x16.png"/>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="video/video.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900" rel="stylesheet">
+
     <title>Lyft - sprint3</title>
   </head>
 
@@ -61,11 +63,42 @@
                 Earn money for inviting friends to drive. <a class="linkInfo" > Learn more </a>
             </p>
 
-        </div><!-- Aqui metan el formulario con funcionalidad -->
+        <!-- Aqui metan el formulario con funcionalidad -->
 
         <div id="texto1"></div>
-        <div id="imgCelular"></div>
-    </section>
+          <div id="imgCelular"></div>
+        
+        <div id="sectionTelefono" >
+            <div id="textoSectionTelefono">
+               <div class="boqueText" >
+                   <h2 class="tituloBloqueText" > A RIDE IN MINUTES </h2>
+                    <p class="contBloqueText" >
+                        Request a ride and you’ll be on your way in minutes. <br>
+                        Request. Ride. Repeat.
+                    </p>
+               </div>
+               
+               <div class="boqueText" >
+                   <h2 class="tituloBloqueText" > SERIOUS ABOUT SAFETY </h2>
+                    <p class="contBloqueText" >
+                        From knowing the color of your driver’s car to our 24/7 <br>
+                        Trust & Safety Team, we got you.
+                    </p>
+               </div>
+               
+               <div class="boqueText" >
+                   <h2 class="tituloBloqueText" > HAPPY DRIVERS. <br> HAPPY RIDERS. </h2>
+                    <p class="contBloqueText" >
+                        Ride with us and you’ll see why 9 out of 10 rides end with <br> five stars.
+                    </p>
+               </div>
+                
+            </div>
+            
+            <div id="imgCelular">
+                
+            </div>
+      </section>
 
   <!--Aqui van las divisiones(divisionesTextoVideo) que contienen una subdivision video(con class video para el tamaño y cada uno tiene un id(video1) para la posicion) y una subdivision texto (con class textoLadoVideo para el tamaño y un id (divisionTextoVideo1) para la posicion)-->
   <section id="contenedorVideosTextos">
@@ -76,15 +109,15 @@
            <p>Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
         </div>
         <div class="video" id="video1">
-           <img src="assets/img/video_amp.b445276c.png"/>
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+           <img id="carroMorado" src="assets/img/video_amp.b445276c.png"/>
+           <iframe id="videoMorado" width="560" height="315" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 
     <div class="divisionesTextoVideo" id="divisionTextoVideo2">
         <div class="video" id="video2">
-          <img src="assets/img/video_june.2b8f5889.png" alt="">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/v8nyGzOLsdw" frameborder="0" allowfullscreen></iframe>
+          <img id="imagenJune"src="assets/img/video_june.2b8f5889.png" alt="">
+          <iframe id="videoJune" width="560" height="315" src="https://www.youtube.com/embed/v8nyGzOLsdw" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="textoLadoVideo" id="textoLadoVideo2">
            <h6>WATCH</h6>
@@ -100,8 +133,8 @@
            <p>Launching on TV and online, “Ride on the Bright Side” shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
         </div>
         <div class="video" id="video3">
-          <img src="assets/img/video_ridecorp.61432eb2.png"/>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
+          <img id="imagenGood" src="assets/img/video_ridecorp.61432eb2.png"/>
+          <iframe id="videoGood" width="560" height="315" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
   </section>
@@ -123,22 +156,26 @@
       </div>
       <div class="divsVerticales" >
           <ul>
-              <li>PARTNER</li>
-              <li>Partnerships</li>
-              <li>Business</li>
-              <li>Ambassadors</li>
-              <li>Developers</li>
-              <li>Events</li>
+              <li><a href="">PARTNER</a></li>
+              <li><a href="">Partnerships</a></li>
+              <li><a href="">Business</a></li>
+              <li><a href="">Ambassadors</a></li>
+              <li><a href="">Developers</a></li>
+              <li><a href="">Events</a></li>
+
           </ul>
       </div>
       <div class="divsVerticales">
           <ul>
-              <li>LEARN</li>
-              <li>Safety</li>
-              <li>Blog</li>
-              <li>Press</li>
-              <li>Careers</li>
-              <li>Driver Requirements</li>
+
+            <li><a href="">LEARN</a></li>
+            <li><a href="">Safety</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Driver Requirements</a></li>
+
+
           </ul>
       </div>
       <div class="divsVerticales" id="divImagenes">
@@ -158,6 +195,8 @@
           <p>2017 Lyft, Inc. Terms Privacy</p>
       </div>
   </footer>
-  <script src='headerjs/header.js'></script>
+
+  <script src="video/video.js"></script>
+
   </body>
 </html>
