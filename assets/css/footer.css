@@ -5,6 +5,7 @@ footer{
     width: 100%;
     position: relative;
     color: white;
+    font-family: 'Muli', sans-serif;
 }
 
 /*Divs verticales del footer*/
@@ -27,6 +28,23 @@ footer{
 .divsVerticales{
     float: left;
     width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.divsVerticales ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+.divsVerticales ul a{
+    color:white;
+    text-decoration: none;
+}
+
+.divsVerticales ul a:hover{
+    color:fuchsia;
+    text-decoration: underline;
 }
 
 /*Parte horizontal final del footer*/
