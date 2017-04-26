@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="assets/img/favicon-16x16.png" />
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-    <title>Lyft - sprint3</title>
+    <link rel="icon" href="assets/img/favicon-16x16.png"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900" rel="stylesheet">
-</head>
+    <title>Lyft - sprint3</title>
+  </head>
 
 <body>
     <header onscroll="color()">
@@ -36,9 +37,72 @@
               <li class="elementoNav2">Cities</li>
               <li class="elementoNav2">Airports</li>
           </ul>
-      </nav>-->
-    </header>
+       </nav>-->
+  </header>
+  <section id="seccion1">
+    <div id="formulario"></div><!-- Aqui metan el formulario con funcionalidad -->
+     <div id="texto1"></div>
+     <div id="imgCelular"></div>
+  </section>
+  <!--Aqui van las divisiones(divisionesTextoVideo) que contienen una subdivision video(con class video para el tamaño y cada uno tiene un id(video1) para la posicion) y una subdivision texto (con class textoLadoVideo para el tamaño y un id (divisionTextoVideo1) para la posicion)-->
+  <section id="contenedorVideosTextos">
+    <div class="divisionesTextoVideo" id="divisionTextoVideo1">
+        <div class="textoLadoVideo" id="textoLadoVideo1">
+           <h6>WATCH</h6>
+           <h3>AMPLIFY YOUR RIDE</h3>
+           <p>Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
+        </div>
+        <div class="video" id="video1">
+           <img src="assets/img/video_amp.b445276c.png"/>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
 
-</body>
+    <div class="divisionesTextoVideo" id="divisionTextoVideo2">
+        <div class="video" id="video2">
+          <img src="assets/img/video_june.2b8f5889.png" alt="">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/v8nyGzOLsdw" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="textoLadoVideo" id="textoLadoVideo2">
+           <h6>WATCH</h6>
+           <h3>JUNE</h3>
+           <p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride — and sharing her life, too.</p>
+        </div>
+    </div>
 
+    <div class="divisionesTextoVideo" id="divisionTextoVideo3">
+        <div class="textoLadoVideo" id="textoLadoVideo3">
+           <h6>WATCH</h6>
+           <h3>A GOOD THING GOING</h3>
+           <p>Launching on TV and online, “Ride on the Bright Side” shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
+        </div>
+        <div class="video" id="video3">
+          <img src="assets/img/video_ridecorp.61432eb2.png"/>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>      
+  </section>
+  <footer>
+    <div id="divContenedorVerticales"> <!-- -->
+      <div class="divsVerticales"></div>
+      <div class="divsVerticales" ></div>
+      <div class="divsVerticales"></div>
+      <div class="divsVerticales" id="divImagenes">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+          <img src="" alt="">
+      </div>
+    </div>
+      <div id="divHorizontal">
+          <img src="assets/img/twitter.png" alt="">
+          <img src="assets/img/facebook.png" alt="">
+          <img src="assets/img/instagram.png" alt="">
+          <div id="raya">
+              <hr>
+          </div>
+          <p>2017 Lyft, Inc. Terms Privacy</p>
+      </div>
+  </footer>
+  </body>
 </html>
