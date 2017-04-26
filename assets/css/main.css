@@ -68,9 +68,12 @@ header>nav>ul>li>button {
     color: deeppink;
     display: none;
 }
-
+.video {
+    width: 50%;
+    float: left
+}
 #contenedorVideosTextos>div>div>img {
-    width: 60%;
+    width: 100%;
 }
 #contenedorVideosTextos>div>div>iframe {
     width: 60%;
@@ -80,6 +83,12 @@ header>nav>ul>li>button {
 .textoLadoVideo {
     display: inline-block;
     width: 35%;
+    margin: 5px;
 }
-
-
+#divisionTextoVideo1,#divisionTextoVideo2,#divisionTextoVideo3 {
+    height: 250px;
+    margin-bottom: 30px;
+}
+#video2 {
+    float: right
+}
