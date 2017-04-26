@@ -148,6 +148,14 @@ header>nav>ul>li>button {
     text-decoration: none;
 }
 
+/* menu no show*/
+#seccionDatos {
+  display: none;    
+}
+
+#numeroChiquito {
+  display: none; 
+}
 #imgCelular{
     clear: both
 }

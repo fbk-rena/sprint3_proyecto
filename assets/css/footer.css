@@ -28,6 +28,7 @@ footer{
 .divsVerticales{
     float: left;
     width: 20%;
+   list-style:none;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -45,6 +46,7 @@ footer{
 .divsVerticales ul a:hover{
     color:fuchsia;
     text-decoration: underline;
+
 }
 
 /*Parte horizontal final del footer*/

@@ -1,4 +1,19 @@
-var mostrar =  document.getElementById("numeroTelefono"); 
+
+function mostrarDatos () {
+ var datos = document.getElementById("seccionDatos"); 
+    
+   datos.style.display = "block";   
+}
+
+function ocultarPlaceHolder () {
+  var texto= document.getElementById("numeroTelefono"); // cuadro en blanco 
+    
+    texto.style.display = "none";
+    addEventListener("click", mostrarTextoVacio); 
+}
+
+function mostrarPlaceHolder () {
+    var mostrar =  document.getElementById("numeroTelefono"); 
     
     mostrar.style.display = "block"; 
 }
