@@ -15,14 +15,19 @@ html, body {
     height: 100%;
 }
 
+body {
+    font-family: 'Muli', sans-serif;
+}
+
 header {
-/*    position: fixed;*/
+
     width: 100%;
     height: 20px;
     padding-bottom: 100px;
     font-family: 'Muli', sans-serif;
     color: white;
     vertical-align: center;
+    
 }
 
 header>img {
@@ -179,3 +184,27 @@ section{
     position: static;
     display: block;
 }*/
+.video {
+    width: 50%;
+    float: left
+}
+#contenedorVideosTextos>div>div>img {
+    width: 100%;
+}
+#contenedorVideosTextos>div>div>iframe {
+    width: 60%;
+    display: none;
+}
+
+.textoLadoVideo {
+    display: inline-block;
+    width: 35%;
+    margin: 5px;
+}
+#divisionTextoVideo1,#divisionTextoVideo2,#divisionTextoVideo3 {
+    height: 250px;
+    margin-bottom: 30px;
+}
+#video2 {
+    float: right
+}
