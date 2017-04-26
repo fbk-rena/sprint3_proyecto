@@ -7,6 +7,30 @@ footer{
     color: white;
 }
 
+/*Divs verticales del footer*/
+
+#divImagenes{
+    float: right;
+    width: 10%;    
+    margin-right: 7%;
+    margin-top: 2%;
+}
+
+#divImagenes img{
+    display: block;
+    width: 100%;
+    height: 60px; 
+    margin-top: 15px;
+    margin-right: 20px;    
+}
+
+.divsVerticales{
+    float: left;
+    width: 20%;
+}
+
+/*Parte horizontal final del footer*/
+
 #divHorizontal {
     position: absolute;
     bottom: 10px;
@@ -26,4 +50,3 @@ footer{
     width: 100%;
     text-align: center;    
 }
-

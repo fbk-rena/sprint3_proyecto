@@ -17,16 +17,18 @@ html, body {
 header {
     position: fixed;
     width: 100%;
-    background-color: black;
-    height: 60px;
-    padding: 5px 0 40px;
+    height: 20px;
+    padding-bottom: 100px;
     font-family: 'Muli', sans-serif;
     color: white;
+    vertical-align: center;
 }
 
 header>img {
     width: 65px;
-    margin-left: 100px;;
+    margin-left: 100px;
+    margin-top: 20px;
+    
 }
 
 header>nav {
@@ -56,8 +58,17 @@ header>nav>ul>li>button {
     background-color: rgba(255, 255, 255, 0);
     color: white;
     font-family: 'Muli', sans-serif;
+    font-size: 18px;
 }
 
+#botonLogInNav:hover {
+    background-color: rgba(255, 255, 255, 0.58);
+}
+#botonSingUpNav {
+    border: 2px solid deeppink;
+    color: deeppink;
+    display: none;
+}
 /* seccion1 */
 
 #seccion1{
@@ -117,4 +128,3 @@ header>nav>ul>li>button {
     color: #ff00bf;
     text-decoration: none;
 }
-
