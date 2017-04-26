@@ -149,20 +149,26 @@ header>nav>ul>li>button {
 
 #sectionTelefono{
     clear: both;
-    height: 400px;
+    height: 100%;
     background: linear-gradient(#74268e, #2b1e66);
     padding: 20px;
 }
 
 #textoSectionTelefono{
     color: #fff;
+    padding-bottom: 50px;
 }
 
-
-.boqueText{
-    margin-top: 30px;
+.tituloBloqueText{
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 
+.contBloqueText{
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+}
 
 /*
 section{
